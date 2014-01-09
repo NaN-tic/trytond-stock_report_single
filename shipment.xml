@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="print_shipment_warning_view_form">
+            <field name="model">stock.shipment.print.warning</field>
+            <field name="type">form</field>
+            <field name="name">print_warning_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="print_delivery_note">
+            <field name="name">Delivery Note</field>
+            <field name="wiz_name">stock.shipment.out.print</field>
+            <field name="model">stock.shipment.out</field>
+        </record>
+        <record model="ir.action.keyword"
+            id="stock.report_shipment_out_delivery_note_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">stock.shipment.out,-1</field>
+            <field name="action" ref="print_delivery_note"/>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,35 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.shipment.print.warning,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "model:ir.action,name:print_delivery_note"
+msgid "Delivery Note"
+msgstr "Albarà"
+
+msgctxt "model:stock.shipment.print.warning,name:"
+msgid "Print Shipment Report Warning"
+msgstr "Avís al imprimir albarà"
+
+msgctxt "view:stock.shipment.print.warning:"
+msgid "Print Shipment"
+msgstr "Imprimir albarà"
+
+msgctxt "view:stock.shipment.print.warning:"
+msgid "The shipments will be sent directly to the printer."
+msgstr "Els albarans s'enviaràn directament a la impresora."
+
+msgctxt "view:stock.shipment.print.warning:"
+msgid "You have selected more than one shipment to print."
+msgstr "Ha seleccionat més d'un albarà a imprimir."
+
+msgctxt "wizard_button:stock.shipment.out.print,warning,end:"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "wizard_button:stock.shipment.out.print,warning,print_:"
+msgid "Print"
+msgstr "Imprimeix"
